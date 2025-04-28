@@ -15,7 +15,7 @@ def norm(x):
     return abs(x * 4)
 
 
-chunk = 1024 
+chunk = 256 
 FORMAT = pyaudio.paInt16 
 CHANNELS = 1 
 RATE = 8800 
